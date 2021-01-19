@@ -11,6 +11,11 @@ Exemplo: O preço configurado para o cliente 1 é o preço de custo. Ao vender o
 Exceções:
 * O produto é vendido como balança. Nesse caso será considerado o preço que o produto exporta.
 * O tipo de preço no DAV está diferente de Normal. Quando se utiliza vários preços no DAV, quando se insere um preço diferente do Normal, por exemplo preço de venda, mesmo se o cliente estiver configurado para vender a preço de custo, será carregado e vendido a preço de venda.
+
+![Preço no DAV](imagens/precodav.png)
+
+Obs: Para utilizar vários preços no DAV basta marcar a configuração "Trabalha com vários preços em vendas no DAV" localizada em: (Retaguarda -> Sistema -> Configurações -> Estoque -> Orçamento /Pré-venda -> Preços) 
+
 ---
 ### 2. Convênio Cliente
 No cadastro de clientes é possível definir um convênio que concede um desconto de acordo com o configurado no convênio em: cadastros -> clientes -> convênio. Dessa forma quando é realizada uma venda, por exemplo, no DAV, quando se insere o cliente e confirma que deseja vender com desconto do convênio será dado o desconto do convênio naquele produto.
